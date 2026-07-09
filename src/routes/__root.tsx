@@ -199,9 +199,9 @@ function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
         <Link to="/" className="flex items-center gap-3 group">
           <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />
-          <span className="flex flex-col leading-tight">
+          <span className="flex flex-col leading-tight"> 
             <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>
-           
+          </span> 
         </Link>
         <nav className="hidden md:flex items-center gap-1">
           {NAV.map((n) => (
