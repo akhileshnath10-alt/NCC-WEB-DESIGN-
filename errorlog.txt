@@ -1,0 +1,2294 @@
+
+> dev
+> vite dev
+
+[33mThe plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the [1mresolve.tsconfigPaths[22m option. You can remove the plugin and set [1mresolve.tsconfigPaths: true[22m in your Vite config instead.[39m
+Warning: Route file "C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/lib/error-capture.ts" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "C:\Users\ABC\Downloads\ncc site\NCC site\src\routes\lib\-error-capture.ts" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/lib/error-page.ts" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "C:\Users\ABC\Downloads\ncc site\NCC site\src\routes\lib\-error-page.ts" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/lib/lovable-error-reporting.ts" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "C:\Users\ABC\Downloads\ncc site\NCC site\src\routes\lib\-lovable-error-reporting.ts" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/lib/api/example.functions.ts" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "C:\Users\ABC\Downloads\ncc site\NCC site\src\routes\lib\api\-example.functions.ts" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/lib/utils.ts" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "C:\Users\ABC\Downloads\ncc site\NCC site\src\routes\lib\-utils.ts" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/lib/config.server.ts" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "C:\Users\ABC\Downloads\ncc site\NCC site\src\routes\lib\-config.server.ts" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+
+  [32m[1mVITE[22m v8.1.3[39m  [2mready in [0m[1m1631[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8080[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.56.1:[1m8080[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.159:[1m8080[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m4:03:11 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m connected.
+SyntaxError: Expected corresponding JSX closing tag for <span>. (205:8)
+    at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 8 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+  cause: Error [SyntaxError]: Expected corresponding JSX closing tag for <span>. (205:8)
+      at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4739:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'MissingClosingTagElement',
+    loc: Position { line: 205, column: 8, index: 7510 },
+    pos: 7510,
+    syntaxPlugin: 'jsx',
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/__root.tsx',
+    pluginCode: 'import { QueryClient, QueryClientProvider } from "@tanstack/react-query";\n' +
+      'import {\n' +
+      '  Outlet,\n' +
+      '  Link,\n' +
+      '  createRootRouteWithContext,\n' +
+      '  useRouter,\n' +
+      '  useRouterState,\n' +
+      '  HeadContent,\n' +
+      '  Scripts,\n' +
+      '} from "@tanstack/react-router";\n' +
+      'import { useEffect, useState, type ReactNode } from "react";\n' +
+      'import { Moon, Sun, Instagram } from "lucide-react";\n' +
+      '\n' +
+      'import appCss from "../styles.css?url";\n' +
+      'import nccLogo from "../assets/ncc-logo.png";\n' +
+      '\n' +
+      'function NotFoundComponent() {\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-7xl font-bold text-foreground">404</h1>\n' +
+      '        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      "          The page you're looking for doesn't exist or has been moved.\n" +
+      '        </p>\n' +
+      '        <div className="mt-6">\n' +
+      '          <Link\n' +
+      '            to="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {\n' +
+      '  console.error(error);\n' +
+      '  const router = useRouter();\n' +
+      '  useEffect(() => {\n' +
+      '  console.error(error);\n' +
+      '}, [error]);\n' +
+      '\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-xl font-semibold tracking-tight text-foreground">\n' +
+      "          This page didn't load\n" +
+      '        </h1>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      '          Something went wrong on our end. You can try refreshing or head back home.\n' +
+      '        </p>\n' +
+      '        <div className="mt-6 flex flex-wrap justify-center gap-2">\n' +
+      '          <button\n' +
+      '            onClick={() => {\n' +
+      '              router.invalidate();\n' +
+      '              reset();\n' +
+      '            }}\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Try again\n' +
+      '          </button>\n' +
+      '          <a\n' +
+      '            href="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </a>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({\n' +
+      '  head: () => ({\n' +
+      '    meta: [\n' +
+      '      { charSet: "utf-8" },\n' +
+      '      { name: "viewport", content: "width=device-width, initial-scale=1" },\n' +
+      '      { title: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { property: "og:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:type", content: "website" },\n' +
+      '      { name: "twitter:card", content: "summary" },\n' +
+      '      { name: "twitter:site", content: "@Lovable" },\n' +
+      '      { name: "twitter:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "twitter:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '    ],\n' +
+      '    links: [\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: appCss,\n' +
+      '      },\n' +
+      '      { rel: "preconnect", href: "https://fonts.googleapis.com" },\n' +
+      '      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",\n' +
+      '      },\n' +
+      '    ],\n' +
+      '  }),\n' +
+      '  shellComponent: RootShell,\n' +
+      '  component: RootComponent,\n' +
+      '  notFoundComponent: NotFoundComponent,\n' +
+      '  errorComponent: ErrorComponent,\n' +
+      '});\n' +
+      '\n' +
+      'function RootShell({ children }: { children: ReactNode }) {\n' +
+      '  return (\n' +
+      '    <html lang="en">\n' +
+      '      <head>\n' +
+      '        <HeadContent />\n' +
+      '      </head>\n' +
+      '      <body>\n' +
+      '        {children}\n' +
+      '        <Scripts />\n' +
+      '      </body>\n' +
+      '    </html>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function RootComponent() {\n' +
+      '  const { queryClient } = Route.useRouteContext();\n' +
+      '\n' +
+      '  return (\n' +
+      '    <QueryClientProvider client={queryClient}>\n' +
+      '      <SiteShell />\n' +
+      '    </QueryClientProvider>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteShell() {\n' +
+      '  return (\n' +
+      '    <div className="min-h-screen flex flex-col">\n' +
+      '      <SiteHeader />\n' +
+      '      <main className="flex-1">\n' +
+      '        <Outlet />\n' +
+      '      </main>\n' +
+      '      <SiteFooter />\n' +
+      '      <PageTransitionOverlay />\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function PageTransitionOverlay() {\n' +
+      '  const pathname = useRouterState({ select: (s) => s.location.pathname });\n' +
+      '  const [active, setActive] = useState(false);\n' +
+      '  const [firstRender, setFirstRender] = useState(true);\n' +
+      '  useEffect(() => {\n' +
+      '    if (firstRender) {\n' +
+      '      setFirstRender(false);\n' +
+      '      return;\n' +
+      '    }\n' +
+      '    setActive(true);\n' +
+      '    const t = setTimeout(() => setActive(false), 350);\n' +
+      '    return () => clearTimeout(t);\n' +
+      '    // eslint-disable-next-line react-hooks/exhaustive-deps\n' +
+      '  }, [pathname]);\n' +
+      '  return (\n' +
+      '    <div\n' +
+      '      aria-hidden\n' +
+      '      className={\n' +
+      '        "pointer-events-none fixed inset-0 z-[100] bg-black transition-opacity duration-300 ease-in-out " +\n' +
+      '        (active ? "opacity-100" : "opacity-0")\n' +
+      '      }\n' +
+      '    />\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'const NAV = [\n' +
+      '  { to: "/", label: "Home" },\n' +
+      '  { to: "/activities", label: "Activities" },\n' +
+      '  { to: "/notices", label: "Notices" },\n' +
+      '  { to: "/about", label: "About" },\n' +
+      '  { to: "/contact", label: "Contact" },\n' +
+      '] as const;\n' +
+      '\n' +
+      'function SiteHeader() {\n' +
+      '  const [isDark, setIsDark] = useState(false);\n' +
+      '  useEffect(() => {\n' +
+      '    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;\n' +
+      '    const prefersDark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;\n' +
+      '    setIsDark(prefersDark);\n' +
+      '    document.documentElement.classList.toggle("dark", prefersDark);\n' +
+      '  }, []);\n' +
+      '  const toggleTheme = () => {\n' +
+      '    const next = !isDark;\n' +
+      '    setIsDark(next);\n' +
+      '    document.documentElement.classList.toggle("dark", next);\n' +
+      '    localStorage.setItem("theme", next ? "dark" : "light");\n' +
+      '  };\n' +
+      '  return (\n' +
+      '    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">\n' +
+      '      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">\n' +
+      '        <Link to="/" className="flex items-center gap-3 group">\n' +
+      '          <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />\n' +
+      '          <span className="flex flex-col leading-tight">\n' +
+      '            <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>\n' +
+      '           \n' +
+      '        </Link>\n' +
+      '        <nav className="hidden md:flex items-center gap-1">\n' +
+      '          {NAV.map((n) => (\n' +
+      '            <Link\n' +
+      '              key={n.to}\n' +
+      '              to={n.to}\n' +
+      '              className="px-3 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors"\n' +
+      '              activeProps={{ className: "px-3 py-2 text-sm text-foreground font-medium" }}\n' +
+      '              activeOptions={{ exact: n.to === "/" }}\n' +
+      '            >\n' +
+      '              {n.label}\n' +
+      '            </Link>\n' +
+      '          ))}\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-foreground/80 hover:text-foreground hover:bg-accent/10 transition"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="ml-3 inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"\n' +
+      '          >\n' +
+      '            Cadet Login\n' +
+      '            <span aria-hidden>→</span>\n' +
+      '          </Link>\n' +
+      '        </nav>\n' +
+      '        <div className="md:hidden flex items-center gap-2">\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-border/60 text-foreground/80"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="rounded-sm bg-primary px-3 py-2 text-xs font-medium text-primary-foreground"\n' +
+      '          >\n' +
+      '            Login\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </header>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteFooter() {\n' +
+      '  return (\n' +
+      '    <footer className="border-t border-border/60 bg-[color:var(--olive-deep)] text-primary-foreground/90 mt-24">\n' +
+      '      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">\n' +
+      '        <div className="md:col-span-2">\n' +
+      '          <div className="font-display text-3xl">Unity & Discipline</div>\n' +
+      '          <p className="mt-4 max-w-md text-sm text-primary-foreground/70">\n' +
+      '            The National Cadet Corps unit at our college trains young women and men into responsible citizens through drill, adventure, and service.\n' +
+      '          </p>\n' +
+      '        </div>\n' +
+      '        <div>\n' +
+      '          <div '... 1799 more characters,
+    frame: '203 |              <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING A...\n' +
+      '204 |             \n' +
+      '205 |          </Link>\n' +
+      '    |          ^\n' +
+      '206 |          <nav className="hidden md:flex items-center gap-1">\n' +
+      '207 |            {NAV.map((n) => (',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:547:64)
+        at Object.invoke (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:620:11)
+        at async ModuleRunner.getModuleInformation (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1199:7)
+        at async request (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1216:83)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:5:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+        at async ModuleRunner.directRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1259:59)
+        at async ModuleRunner.cachedRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1166:73)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:7:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:28:72)
+    at async Object.fetch (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:38:10)
+    at async file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Expected corresponding JSX closing tag for <span>. (205:8)
+    at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 8 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+  cause: Error [SyntaxError]: Expected corresponding JSX closing tag for <span>. (205:8)
+      at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4739:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'MissingClosingTagElement',
+    loc: Position { line: 205, column: 8, index: 7510 },
+    pos: 7510,
+    syntaxPlugin: 'jsx',
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/__root.tsx',
+    pluginCode: 'import { QueryClient, QueryClientProvider } from "@tanstack/react-query";\n' +
+      'import {\n' +
+      '  Outlet,\n' +
+      '  Link,\n' +
+      '  createRootRouteWithContext,\n' +
+      '  useRouter,\n' +
+      '  useRouterState,\n' +
+      '  HeadContent,\n' +
+      '  Scripts,\n' +
+      '} from "@tanstack/react-router";\n' +
+      'import { useEffect, useState, type ReactNode } from "react";\n' +
+      'import { Moon, Sun, Instagram } from "lucide-react";\n' +
+      '\n' +
+      'import appCss from "../styles.css?url";\n' +
+      'import nccLogo from "../assets/ncc-logo.png";\n' +
+      '\n' +
+      'function NotFoundComponent() {\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-7xl font-bold text-foreground">404</h1>\n' +
+      '        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      "          The page you're looking for doesn't exist or has been moved.\n" +
+      '        </p>\n' +
+      '        <div className="mt-6">\n' +
+      '          <Link\n' +
+      '            to="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {\n' +
+      '  console.error(error);\n' +
+      '  const router = useRouter();\n' +
+      '  useEffect(() => {\n' +
+      '  console.error(error);\n' +
+      '}, [error]);\n' +
+      '\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-xl font-semibold tracking-tight text-foreground">\n' +
+      "          This page didn't load\n" +
+      '        </h1>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      '          Something went wrong on our end. You can try refreshing or head back home.\n' +
+      '        </p>\n' +
+      '        <div className="mt-6 flex flex-wrap justify-center gap-2">\n' +
+      '          <button\n' +
+      '            onClick={() => {\n' +
+      '              router.invalidate();\n' +
+      '              reset();\n' +
+      '            }}\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Try again\n' +
+      '          </button>\n' +
+      '          <a\n' +
+      '            href="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </a>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({\n' +
+      '  head: () => ({\n' +
+      '    meta: [\n' +
+      '      { charSet: "utf-8" },\n' +
+      '      { name: "viewport", content: "width=device-width, initial-scale=1" },\n' +
+      '      { title: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { property: "og:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:type", content: "website" },\n' +
+      '      { name: "twitter:card", content: "summary" },\n' +
+      '      { name: "twitter:site", content: "@Lovable" },\n' +
+      '      { name: "twitter:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "twitter:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '    ],\n' +
+      '    links: [\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: appCss,\n' +
+      '      },\n' +
+      '      { rel: "preconnect", href: "https://fonts.googleapis.com" },\n' +
+      '      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",\n' +
+      '      },\n' +
+      '    ],\n' +
+      '  }),\n' +
+      '  shellComponent: RootShell,\n' +
+      '  component: RootComponent,\n' +
+      '  notFoundComponent: NotFoundComponent,\n' +
+      '  errorComponent: ErrorComponent,\n' +
+      '});\n' +
+      '\n' +
+      'function RootShell({ children }: { children: ReactNode }) {\n' +
+      '  return (\n' +
+      '    <html lang="en">\n' +
+      '      <head>\n' +
+      '        <HeadContent />\n' +
+      '      </head>\n' +
+      '      <body>\n' +
+      '        {children}\n' +
+      '        <Scripts />\n' +
+      '      </body>\n' +
+      '    </html>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function RootComponent() {\n' +
+      '  const { queryClient } = Route.useRouteContext();\n' +
+      '\n' +
+      '  return (\n' +
+      '    <QueryClientProvider client={queryClient}>\n' +
+      '      <SiteShell />\n' +
+      '    </QueryClientProvider>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteShell() {\n' +
+      '  return (\n' +
+      '    <div className="min-h-screen flex flex-col">\n' +
+      '      <SiteHeader />\n' +
+      '      <main className="flex-1">\n' +
+      '        <Outlet />\n' +
+      '      </main>\n' +
+      '      <SiteFooter />\n' +
+      '      <PageTransitionOverlay />\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function PageTransitionOverlay() {\n' +
+      '  const pathname = useRouterState({ select: (s) => s.location.pathname });\n' +
+      '  const [active, setActive] = useState(false);\n' +
+      '  const [firstRender, setFirstRender] = useState(true);\n' +
+      '  useEffect(() => {\n' +
+      '    if (firstRender) {\n' +
+      '      setFirstRender(false);\n' +
+      '      return;\n' +
+      '    }\n' +
+      '    setActive(true);\n' +
+      '    const t = setTimeout(() => setActive(false), 350);\n' +
+      '    return () => clearTimeout(t);\n' +
+      '    // eslint-disable-next-line react-hooks/exhaustive-deps\n' +
+      '  }, [pathname]);\n' +
+      '  return (\n' +
+      '    <div\n' +
+      '      aria-hidden\n' +
+      '      className={\n' +
+      '        "pointer-events-none fixed inset-0 z-[100] bg-black transition-opacity duration-300 ease-in-out " +\n' +
+      '        (active ? "opacity-100" : "opacity-0")\n' +
+      '      }\n' +
+      '    />\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'const NAV = [\n' +
+      '  { to: "/", label: "Home" },\n' +
+      '  { to: "/activities", label: "Activities" },\n' +
+      '  { to: "/notices", label: "Notices" },\n' +
+      '  { to: "/about", label: "About" },\n' +
+      '  { to: "/contact", label: "Contact" },\n' +
+      '] as const;\n' +
+      '\n' +
+      'function SiteHeader() {\n' +
+      '  const [isDark, setIsDark] = useState(false);\n' +
+      '  useEffect(() => {\n' +
+      '    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;\n' +
+      '    const prefersDark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;\n' +
+      '    setIsDark(prefersDark);\n' +
+      '    document.documentElement.classList.toggle("dark", prefersDark);\n' +
+      '  }, []);\n' +
+      '  const toggleTheme = () => {\n' +
+      '    const next = !isDark;\n' +
+      '    setIsDark(next);\n' +
+      '    document.documentElement.classList.toggle("dark", next);\n' +
+      '    localStorage.setItem("theme", next ? "dark" : "light");\n' +
+      '  };\n' +
+      '  return (\n' +
+      '    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">\n' +
+      '      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">\n' +
+      '        <Link to="/" className="flex items-center gap-3 group">\n' +
+      '          <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />\n' +
+      '          <span className="flex flex-col leading-tight">\n' +
+      '            <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>\n' +
+      '           \n' +
+      '        </Link>\n' +
+      '        <nav className="hidden md:flex items-center gap-1">\n' +
+      '          {NAV.map((n) => (\n' +
+      '            <Link\n' +
+      '              key={n.to}\n' +
+      '              to={n.to}\n' +
+      '              className="px-3 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors"\n' +
+      '              activeProps={{ className: "px-3 py-2 text-sm text-foreground font-medium" }}\n' +
+      '              activeOptions={{ exact: n.to === "/" }}\n' +
+      '            >\n' +
+      '              {n.label}\n' +
+      '            </Link>\n' +
+      '          ))}\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-foreground/80 hover:text-foreground hover:bg-accent/10 transition"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="ml-3 inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"\n' +
+      '          >\n' +
+      '            Cadet Login\n' +
+      '            <span aria-hidden>→</span>\n' +
+      '          </Link>\n' +
+      '        </nav>\n' +
+      '        <div className="md:hidden flex items-center gap-2">\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-border/60 text-foreground/80"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="rounded-sm bg-primary px-3 py-2 text-xs font-medium text-primary-foreground"\n' +
+      '          >\n' +
+      '            Login\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </header>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteFooter() {\n' +
+      '  return (\n' +
+      '    <footer className="border-t border-border/60 bg-[color:var(--olive-deep)] text-primary-foreground/90 mt-24">\n' +
+      '      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">\n' +
+      '        <div className="md:col-span-2">\n' +
+      '          <div className="font-display text-3xl">Unity & Discipline</div>\n' +
+      '          <p className="mt-4 max-w-md text-sm text-primary-foreground/70">\n' +
+      '            The National Cadet Corps unit at our college trains young women and men into responsible citizens through drill, adventure, and service.\n' +
+      '          </p>\n' +
+      '        </div>\n' +
+      '        <div>\n' +
+      '          <div '... 1799 more characters,
+    frame: '203 |              <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING A...\n' +
+      '204 |             \n' +
+      '205 |          </Link>\n' +
+      '    |          ^\n' +
+      '206 |          <nav className="hidden md:flex items-center gap-1">\n' +
+      '207 |            {NAV.map((n) => (',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:547:64)
+        at Object.invoke (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:620:11)
+        at async ModuleRunner.getModuleInformation (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1199:7)
+        at async request (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1216:83)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:5:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+        at async ModuleRunner.directRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1259:59)
+        at async ModuleRunner.cachedRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1166:73)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:7:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:28:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:38:10)
+    at async file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Expected corresponding JSX closing tag for <span>. (205:8)
+    at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 8 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+  cause: Error [SyntaxError]: Expected corresponding JSX closing tag for <span>. (205:8)
+      at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4739:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'MissingClosingTagElement',
+    loc: Position { line: 205, column: 8, index: 7510 },
+    pos: 7510,
+    syntaxPlugin: 'jsx',
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/__root.tsx',
+    pluginCode: 'import { QueryClient, QueryClientProvider } from "@tanstack/react-query";\n' +
+      'import {\n' +
+      '  Outlet,\n' +
+      '  Link,\n' +
+      '  createRootRouteWithContext,\n' +
+      '  useRouter,\n' +
+      '  useRouterState,\n' +
+      '  HeadContent,\n' +
+      '  Scripts,\n' +
+      '} from "@tanstack/react-router";\n' +
+      'import { useEffect, useState, type ReactNode } from "react";\n' +
+      'import { Moon, Sun, Instagram } from "lucide-react";\n' +
+      '\n' +
+      'import appCss from "../styles.css?url";\n' +
+      'import nccLogo from "../assets/ncc-logo.png";\n' +
+      '\n' +
+      'function NotFoundComponent() {\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-7xl font-bold text-foreground">404</h1>\n' +
+      '        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      "          The page you're looking for doesn't exist or has been moved.\n" +
+      '        </p>\n' +
+      '        <div className="mt-6">\n' +
+      '          <Link\n' +
+      '            to="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {\n' +
+      '  console.error(error);\n' +
+      '  const router = useRouter();\n' +
+      '  useEffect(() => {\n' +
+      '  console.error(error);\n' +
+      '}, [error]);\n' +
+      '\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-xl font-semibold tracking-tight text-foreground">\n' +
+      "          This page didn't load\n" +
+      '        </h1>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      '          Something went wrong on our end. You can try refreshing or head back home.\n' +
+      '        </p>\n' +
+      '        <div className="mt-6 flex flex-wrap justify-center gap-2">\n' +
+      '          <button\n' +
+      '            onClick={() => {\n' +
+      '              router.invalidate();\n' +
+      '              reset();\n' +
+      '            }}\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Try again\n' +
+      '          </button>\n' +
+      '          <a\n' +
+      '            href="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </a>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({\n' +
+      '  head: () => ({\n' +
+      '    meta: [\n' +
+      '      { charSet: "utf-8" },\n' +
+      '      { name: "viewport", content: "width=device-width, initial-scale=1" },\n' +
+      '      { title: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { property: "og:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:type", content: "website" },\n' +
+      '      { name: "twitter:card", content: "summary" },\n' +
+      '      { name: "twitter:site", content: "@Lovable" },\n' +
+      '      { name: "twitter:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "twitter:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '    ],\n' +
+      '    links: [\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: appCss,\n' +
+      '      },\n' +
+      '      { rel: "preconnect", href: "https://fonts.googleapis.com" },\n' +
+      '      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",\n' +
+      '      },\n' +
+      '    ],\n' +
+      '  }),\n' +
+      '  shellComponent: RootShell,\n' +
+      '  component: RootComponent,\n' +
+      '  notFoundComponent: NotFoundComponent,\n' +
+      '  errorComponent: ErrorComponent,\n' +
+      '});\n' +
+      '\n' +
+      'function RootShell({ children }: { children: ReactNode }) {\n' +
+      '  return (\n' +
+      '    <html lang="en">\n' +
+      '      <head>\n' +
+      '        <HeadContent />\n' +
+      '      </head>\n' +
+      '      <body>\n' +
+      '        {children}\n' +
+      '        <Scripts />\n' +
+      '      </body>\n' +
+      '    </html>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function RootComponent() {\n' +
+      '  const { queryClient } = Route.useRouteContext();\n' +
+      '\n' +
+      '  return (\n' +
+      '    <QueryClientProvider client={queryClient}>\n' +
+      '      <SiteShell />\n' +
+      '    </QueryClientProvider>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteShell() {\n' +
+      '  return (\n' +
+      '    <div className="min-h-screen flex flex-col">\n' +
+      '      <SiteHeader />\n' +
+      '      <main className="flex-1">\n' +
+      '        <Outlet />\n' +
+      '      </main>\n' +
+      '      <SiteFooter />\n' +
+      '      <PageTransitionOverlay />\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function PageTransitionOverlay() {\n' +
+      '  const pathname = useRouterState({ select: (s) => s.location.pathname });\n' +
+      '  const [active, setActive] = useState(false);\n' +
+      '  const [firstRender, setFirstRender] = useState(true);\n' +
+      '  useEffect(() => {\n' +
+      '    if (firstRender) {\n' +
+      '      setFirstRender(false);\n' +
+      '      return;\n' +
+      '    }\n' +
+      '    setActive(true);\n' +
+      '    const t = setTimeout(() => setActive(false), 350);\n' +
+      '    return () => clearTimeout(t);\n' +
+      '    // eslint-disable-next-line react-hooks/exhaustive-deps\n' +
+      '  }, [pathname]);\n' +
+      '  return (\n' +
+      '    <div\n' +
+      '      aria-hidden\n' +
+      '      className={\n' +
+      '        "pointer-events-none fixed inset-0 z-[100] bg-black transition-opacity duration-300 ease-in-out " +\n' +
+      '        (active ? "opacity-100" : "opacity-0")\n' +
+      '      }\n' +
+      '    />\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'const NAV = [\n' +
+      '  { to: "/", label: "Home" },\n' +
+      '  { to: "/activities", label: "Activities" },\n' +
+      '  { to: "/notices", label: "Notices" },\n' +
+      '  { to: "/about", label: "About" },\n' +
+      '  { to: "/contact", label: "Contact" },\n' +
+      '] as const;\n' +
+      '\n' +
+      'function SiteHeader() {\n' +
+      '  const [isDark, setIsDark] = useState(false);\n' +
+      '  useEffect(() => {\n' +
+      '    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;\n' +
+      '    const prefersDark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;\n' +
+      '    setIsDark(prefersDark);\n' +
+      '    document.documentElement.classList.toggle("dark", prefersDark);\n' +
+      '  }, []);\n' +
+      '  const toggleTheme = () => {\n' +
+      '    const next = !isDark;\n' +
+      '    setIsDark(next);\n' +
+      '    document.documentElement.classList.toggle("dark", next);\n' +
+      '    localStorage.setItem("theme", next ? "dark" : "light");\n' +
+      '  };\n' +
+      '  return (\n' +
+      '    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">\n' +
+      '      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">\n' +
+      '        <Link to="/" className="flex items-center gap-3 group">\n' +
+      '          <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />\n' +
+      '          <span className="flex flex-col leading-tight">\n' +
+      '            <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>\n' +
+      '           \n' +
+      '        </Link>\n' +
+      '        <nav className="hidden md:flex items-center gap-1">\n' +
+      '          {NAV.map((n) => (\n' +
+      '            <Link\n' +
+      '              key={n.to}\n' +
+      '              to={n.to}\n' +
+      '              className="px-3 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors"\n' +
+      '              activeProps={{ className: "px-3 py-2 text-sm text-foreground font-medium" }}\n' +
+      '              activeOptions={{ exact: n.to === "/" }}\n' +
+      '            >\n' +
+      '              {n.label}\n' +
+      '            </Link>\n' +
+      '          ))}\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-foreground/80 hover:text-foreground hover:bg-accent/10 transition"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="ml-3 inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"\n' +
+      '          >\n' +
+      '            Cadet Login\n' +
+      '            <span aria-hidden>→</span>\n' +
+      '          </Link>\n' +
+      '        </nav>\n' +
+      '        <div className="md:hidden flex items-center gap-2">\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-border/60 text-foreground/80"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="rounded-sm bg-primary px-3 py-2 text-xs font-medium text-primary-foreground"\n' +
+      '          >\n' +
+      '            Login\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </header>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteFooter() {\n' +
+      '  return (\n' +
+      '    <footer className="border-t border-border/60 bg-[color:var(--olive-deep)] text-primary-foreground/90 mt-24">\n' +
+      '      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">\n' +
+      '        <div className="md:col-span-2">\n' +
+      '          <div className="font-display text-3xl">Unity & Discipline</div>\n' +
+      '          <p className="mt-4 max-w-md text-sm text-primary-foreground/70">\n' +
+      '            The National Cadet Corps unit at our college trains young women and men into responsible citizens through drill, adventure, and service.\n' +
+      '          </p>\n' +
+      '        </div>\n' +
+      '        <div>\n' +
+      '          <div '... 1799 more characters,
+    frame: '203 |              <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING A...\n' +
+      '204 |             \n' +
+      '205 |          </Link>\n' +
+      '    |          ^\n' +
+      '206 |          <nav className="hidden md:flex items-center gap-1">\n' +
+      '207 |            {NAV.map((n) => (',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:547:64)
+        at Object.invoke (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:620:11)
+        at async ModuleRunner.getModuleInformation (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1199:7)
+        at async request (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1216:83)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:5:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+        at async ModuleRunner.directRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1259:59)
+        at async ModuleRunner.cachedRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1166:73)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:7:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:28:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:38:10)
+    at async file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Expected corresponding JSX closing tag for <span>. (205:8)
+    at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 8 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+  cause: Error [SyntaxError]: Expected corresponding JSX closing tag for <span>. (205:8)
+      at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4739:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'MissingClosingTagElement',
+    loc: Position { line: 205, column: 8, index: 7510 },
+    pos: 7510,
+    syntaxPlugin: 'jsx',
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/__root.tsx',
+    pluginCode: 'import { QueryClient, QueryClientProvider } from "@tanstack/react-query";\n' +
+      'import {\n' +
+      '  Outlet,\n' +
+      '  Link,\n' +
+      '  createRootRouteWithContext,\n' +
+      '  useRouter,\n' +
+      '  useRouterState,\n' +
+      '  HeadContent,\n' +
+      '  Scripts,\n' +
+      '} from "@tanstack/react-router";\n' +
+      'import { useEffect, useState, type ReactNode } from "react";\n' +
+      'import { Moon, Sun, Instagram } from "lucide-react";\n' +
+      '\n' +
+      'import appCss from "../styles.css?url";\n' +
+      'import nccLogo from "../assets/ncc-logo.png";\n' +
+      '\n' +
+      'function NotFoundComponent() {\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-7xl font-bold text-foreground">404</h1>\n' +
+      '        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      "          The page you're looking for doesn't exist or has been moved.\n" +
+      '        </p>\n' +
+      '        <div className="mt-6">\n' +
+      '          <Link\n' +
+      '            to="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {\n' +
+      '  console.error(error);\n' +
+      '  const router = useRouter();\n' +
+      '  useEffect(() => {\n' +
+      '  console.error(error);\n' +
+      '}, [error]);\n' +
+      '\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-xl font-semibold tracking-tight text-foreground">\n' +
+      "          This page didn't load\n" +
+      '        </h1>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      '          Something went wrong on our end. You can try refreshing or head back home.\n' +
+      '        </p>\n' +
+      '        <div className="mt-6 flex flex-wrap justify-center gap-2">\n' +
+      '          <button\n' +
+      '            onClick={() => {\n' +
+      '              router.invalidate();\n' +
+      '              reset();\n' +
+      '            }}\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Try again\n' +
+      '          </button>\n' +
+      '          <a\n' +
+      '            href="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </a>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({\n' +
+      '  head: () => ({\n' +
+      '    meta: [\n' +
+      '      { charSet: "utf-8" },\n' +
+      '      { name: "viewport", content: "width=device-width, initial-scale=1" },\n' +
+      '      { title: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { property: "og:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:type", content: "website" },\n' +
+      '      { name: "twitter:card", content: "summary" },\n' +
+      '      { name: "twitter:site", content: "@Lovable" },\n' +
+      '      { name: "twitter:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "twitter:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '    ],\n' +
+      '    links: [\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: appCss,\n' +
+      '      },\n' +
+      '      { rel: "preconnect", href: "https://fonts.googleapis.com" },\n' +
+      '      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",\n' +
+      '      },\n' +
+      '    ],\n' +
+      '  }),\n' +
+      '  shellComponent: RootShell,\n' +
+      '  component: RootComponent,\n' +
+      '  notFoundComponent: NotFoundComponent,\n' +
+      '  errorComponent: ErrorComponent,\n' +
+      '});\n' +
+      '\n' +
+      'function RootShell({ children }: { children: ReactNode }) {\n' +
+      '  return (\n' +
+      '    <html lang="en">\n' +
+      '      <head>\n' +
+      '        <HeadContent />\n' +
+      '      </head>\n' +
+      '      <body>\n' +
+      '        {children}\n' +
+      '        <Scripts />\n' +
+      '      </body>\n' +
+      '    </html>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function RootComponent() {\n' +
+      '  const { queryClient } = Route.useRouteContext();\n' +
+      '\n' +
+      '  return (\n' +
+      '    <QueryClientProvider client={queryClient}>\n' +
+      '      <SiteShell />\n' +
+      '    </QueryClientProvider>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteShell() {\n' +
+      '  return (\n' +
+      '    <div className="min-h-screen flex flex-col">\n' +
+      '      <SiteHeader />\n' +
+      '      <main className="flex-1">\n' +
+      '        <Outlet />\n' +
+      '      </main>\n' +
+      '      <SiteFooter />\n' +
+      '      <PageTransitionOverlay />\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function PageTransitionOverlay() {\n' +
+      '  const pathname = useRouterState({ select: (s) => s.location.pathname });\n' +
+      '  const [active, setActive] = useState(false);\n' +
+      '  const [firstRender, setFirstRender] = useState(true);\n' +
+      '  useEffect(() => {\n' +
+      '    if (firstRender) {\n' +
+      '      setFirstRender(false);\n' +
+      '      return;\n' +
+      '    }\n' +
+      '    setActive(true);\n' +
+      '    const t = setTimeout(() => setActive(false), 350);\n' +
+      '    return () => clearTimeout(t);\n' +
+      '    // eslint-disable-next-line react-hooks/exhaustive-deps\n' +
+      '  }, [pathname]);\n' +
+      '  return (\n' +
+      '    <div\n' +
+      '      aria-hidden\n' +
+      '      className={\n' +
+      '        "pointer-events-none fixed inset-0 z-[100] bg-black transition-opacity duration-300 ease-in-out " +\n' +
+      '        (active ? "opacity-100" : "opacity-0")\n' +
+      '      }\n' +
+      '    />\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'const NAV = [\n' +
+      '  { to: "/", label: "Home" },\n' +
+      '  { to: "/activities", label: "Activities" },\n' +
+      '  { to: "/notices", label: "Notices" },\n' +
+      '  { to: "/about", label: "About" },\n' +
+      '  { to: "/contact", label: "Contact" },\n' +
+      '] as const;\n' +
+      '\n' +
+      'function SiteHeader() {\n' +
+      '  const [isDark, setIsDark] = useState(false);\n' +
+      '  useEffect(() => {\n' +
+      '    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;\n' +
+      '    const prefersDark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;\n' +
+      '    setIsDark(prefersDark);\n' +
+      '    document.documentElement.classList.toggle("dark", prefersDark);\n' +
+      '  }, []);\n' +
+      '  const toggleTheme = () => {\n' +
+      '    const next = !isDark;\n' +
+      '    setIsDark(next);\n' +
+      '    document.documentElement.classList.toggle("dark", next);\n' +
+      '    localStorage.setItem("theme", next ? "dark" : "light");\n' +
+      '  };\n' +
+      '  return (\n' +
+      '    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">\n' +
+      '      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">\n' +
+      '        <Link to="/" className="flex items-center gap-3 group">\n' +
+      '          <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />\n' +
+      '          <span className="flex flex-col leading-tight">\n' +
+      '            <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>\n' +
+      '           \n' +
+      '        </Link>\n' +
+      '        <nav className="hidden md:flex items-center gap-1">\n' +
+      '          {NAV.map((n) => (\n' +
+      '            <Link\n' +
+      '              key={n.to}\n' +
+      '              to={n.to}\n' +
+      '              className="px-3 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors"\n' +
+      '              activeProps={{ className: "px-3 py-2 text-sm text-foreground font-medium" }}\n' +
+      '              activeOptions={{ exact: n.to === "/" }}\n' +
+      '            >\n' +
+      '              {n.label}\n' +
+      '            </Link>\n' +
+      '          ))}\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-foreground/80 hover:text-foreground hover:bg-accent/10 transition"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="ml-3 inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"\n' +
+      '          >\n' +
+      '            Cadet Login\n' +
+      '            <span aria-hidden>→</span>\n' +
+      '          </Link>\n' +
+      '        </nav>\n' +
+      '        <div className="md:hidden flex items-center gap-2">\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-border/60 text-foreground/80"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="rounded-sm bg-primary px-3 py-2 text-xs font-medium text-primary-foreground"\n' +
+      '          >\n' +
+      '            Login\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </header>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteFooter() {\n' +
+      '  return (\n' +
+      '    <footer className="border-t border-border/60 bg-[color:var(--olive-deep)] text-primary-foreground/90 mt-24">\n' +
+      '      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">\n' +
+      '        <div className="md:col-span-2">\n' +
+      '          <div className="font-display text-3xl">Unity & Discipline</div>\n' +
+      '          <p className="mt-4 max-w-md text-sm text-primary-foreground/70">\n' +
+      '            The National Cadet Corps unit at our college trains young women and men into responsible citizens through drill, adventure, and service.\n' +
+      '          </p>\n' +
+      '        </div>\n' +
+      '        <div>\n' +
+      '          <div '... 1799 more characters,
+    frame: '203 |              <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING A...\n' +
+      '204 |             \n' +
+      '205 |          </Link>\n' +
+      '    |          ^\n' +
+      '206 |          <nav className="hidden md:flex items-center gap-1">\n' +
+      '207 |            {NAV.map((n) => (',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:547:64)
+        at Object.invoke (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:620:11)
+        at async ModuleRunner.getModuleInformation (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1199:7)
+        at async request (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1216:83)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:5:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+        at async ModuleRunner.directRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1259:59)
+        at async ModuleRunner.cachedRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1166:73)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:7:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:28:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:38:10)
+    at async file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Expected corresponding JSX closing tag for <span>. (205:8)
+    at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 8 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+  cause: Error [SyntaxError]: Expected corresponding JSX closing tag for <span>. (205:8)
+      at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4739:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'MissingClosingTagElement',
+    loc: Position { line: 205, column: 8, index: 7510 },
+    pos: 7510,
+    syntaxPlugin: 'jsx',
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/__root.tsx',
+    pluginCode: 'import { QueryClient, QueryClientProvider } from "@tanstack/react-query";\n' +
+      'import {\n' +
+      '  Outlet,\n' +
+      '  Link,\n' +
+      '  createRootRouteWithContext,\n' +
+      '  useRouter,\n' +
+      '  useRouterState,\n' +
+      '  HeadContent,\n' +
+      '  Scripts,\n' +
+      '} from "@tanstack/react-router";\n' +
+      'import { useEffect, useState, type ReactNode } from "react";\n' +
+      'import { Moon, Sun, Instagram } from "lucide-react";\n' +
+      '\n' +
+      'import appCss from "../styles.css?url";\n' +
+      'import nccLogo from "../assets/ncc-logo.png";\n' +
+      '\n' +
+      'function NotFoundComponent() {\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-7xl font-bold text-foreground">404</h1>\n' +
+      '        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      "          The page you're looking for doesn't exist or has been moved.\n" +
+      '        </p>\n' +
+      '        <div className="mt-6">\n' +
+      '          <Link\n' +
+      '            to="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {\n' +
+      '  console.error(error);\n' +
+      '  const router = useRouter();\n' +
+      '  useEffect(() => {\n' +
+      '  console.error(error);\n' +
+      '}, [error]);\n' +
+      '\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-xl font-semibold tracking-tight text-foreground">\n' +
+      "          This page didn't load\n" +
+      '        </h1>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      '          Something went wrong on our end. You can try refreshing or head back home.\n' +
+      '        </p>\n' +
+      '        <div className="mt-6 flex flex-wrap justify-center gap-2">\n' +
+      '          <button\n' +
+      '            onClick={() => {\n' +
+      '              router.invalidate();\n' +
+      '              reset();\n' +
+      '            }}\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Try again\n' +
+      '          </button>\n' +
+      '          <a\n' +
+      '            href="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </a>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({\n' +
+      '  head: () => ({\n' +
+      '    meta: [\n' +
+      '      { charSet: "utf-8" },\n' +
+      '      { name: "viewport", content: "width=device-width, initial-scale=1" },\n' +
+      '      { title: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { property: "og:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:type", content: "website" },\n' +
+      '      { name: "twitter:card", content: "summary" },\n' +
+      '      { name: "twitter:site", content: "@Lovable" },\n' +
+      '      { name: "twitter:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "twitter:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '    ],\n' +
+      '    links: [\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: appCss,\n' +
+      '      },\n' +
+      '      { rel: "preconnect", href: "https://fonts.googleapis.com" },\n' +
+      '      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",\n' +
+      '      },\n' +
+      '    ],\n' +
+      '  }),\n' +
+      '  shellComponent: RootShell,\n' +
+      '  component: RootComponent,\n' +
+      '  notFoundComponent: NotFoundComponent,\n' +
+      '  errorComponent: ErrorComponent,\n' +
+      '});\n' +
+      '\n' +
+      'function RootShell({ children }: { children: ReactNode }) {\n' +
+      '  return (\n' +
+      '    <html lang="en">\n' +
+      '      <head>\n' +
+      '        <HeadContent />\n' +
+      '      </head>\n' +
+      '      <body>\n' +
+      '        {children}\n' +
+      '        <Scripts />\n' +
+      '      </body>\n' +
+      '    </html>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function RootComponent() {\n' +
+      '  const { queryClient } = Route.useRouteContext();\n' +
+      '\n' +
+      '  return (\n' +
+      '    <QueryClientProvider client={queryClient}>\n' +
+      '      <SiteShell />\n' +
+      '    </QueryClientProvider>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteShell() {\n' +
+      '  return (\n' +
+      '    <div className="min-h-screen flex flex-col">\n' +
+      '      <SiteHeader />\n' +
+      '      <main className="flex-1">\n' +
+      '        <Outlet />\n' +
+      '      </main>\n' +
+      '      <SiteFooter />\n' +
+      '      <PageTransitionOverlay />\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function PageTransitionOverlay() {\n' +
+      '  const pathname = useRouterState({ select: (s) => s.location.pathname });\n' +
+      '  const [active, setActive] = useState(false);\n' +
+      '  const [firstRender, setFirstRender] = useState(true);\n' +
+      '  useEffect(() => {\n' +
+      '    if (firstRender) {\n' +
+      '      setFirstRender(false);\n' +
+      '      return;\n' +
+      '    }\n' +
+      '    setActive(true);\n' +
+      '    const t = setTimeout(() => setActive(false), 350);\n' +
+      '    return () => clearTimeout(t);\n' +
+      '    // eslint-disable-next-line react-hooks/exhaustive-deps\n' +
+      '  }, [pathname]);\n' +
+      '  return (\n' +
+      '    <div\n' +
+      '      aria-hidden\n' +
+      '      className={\n' +
+      '        "pointer-events-none fixed inset-0 z-[100] bg-black transition-opacity duration-300 ease-in-out " +\n' +
+      '        (active ? "opacity-100" : "opacity-0")\n' +
+      '      }\n' +
+      '    />\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'const NAV = [\n' +
+      '  { to: "/", label: "Home" },\n' +
+      '  { to: "/activities", label: "Activities" },\n' +
+      '  { to: "/notices", label: "Notices" },\n' +
+      '  { to: "/about", label: "About" },\n' +
+      '  { to: "/contact", label: "Contact" },\n' +
+      '] as const;\n' +
+      '\n' +
+      'function SiteHeader() {\n' +
+      '  const [isDark, setIsDark] = useState(false);\n' +
+      '  useEffect(() => {\n' +
+      '    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;\n' +
+      '    const prefersDark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;\n' +
+      '    setIsDark(prefersDark);\n' +
+      '    document.documentElement.classList.toggle("dark", prefersDark);\n' +
+      '  }, []);\n' +
+      '  const toggleTheme = () => {\n' +
+      '    const next = !isDark;\n' +
+      '    setIsDark(next);\n' +
+      '    document.documentElement.classList.toggle("dark", next);\n' +
+      '    localStorage.setItem("theme", next ? "dark" : "light");\n' +
+      '  };\n' +
+      '  return (\n' +
+      '    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">\n' +
+      '      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">\n' +
+      '        <Link to="/" className="flex items-center gap-3 group">\n' +
+      '          <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />\n' +
+      '          <span className="flex flex-col leading-tight">\n' +
+      '            <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>\n' +
+      '           \n' +
+      '        </Link>\n' +
+      '        <nav className="hidden md:flex items-center gap-1">\n' +
+      '          {NAV.map((n) => (\n' +
+      '            <Link\n' +
+      '              key={n.to}\n' +
+      '              to={n.to}\n' +
+      '              className="px-3 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors"\n' +
+      '              activeProps={{ className: "px-3 py-2 text-sm text-foreground font-medium" }}\n' +
+      '              activeOptions={{ exact: n.to === "/" }}\n' +
+      '            >\n' +
+      '              {n.label}\n' +
+      '            </Link>\n' +
+      '          ))}\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-foreground/80 hover:text-foreground hover:bg-accent/10 transition"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="ml-3 inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"\n' +
+      '          >\n' +
+      '            Cadet Login\n' +
+      '            <span aria-hidden>→</span>\n' +
+      '          </Link>\n' +
+      '        </nav>\n' +
+      '        <div className="md:hidden flex items-center gap-2">\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-border/60 text-foreground/80"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="rounded-sm bg-primary px-3 py-2 text-xs font-medium text-primary-foreground"\n' +
+      '          >\n' +
+      '            Login\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </header>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteFooter() {\n' +
+      '  return (\n' +
+      '    <footer className="border-t border-border/60 bg-[color:var(--olive-deep)] text-primary-foreground/90 mt-24">\n' +
+      '      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">\n' +
+      '        <div className="md:col-span-2">\n' +
+      '          <div className="font-display text-3xl">Unity & Discipline</div>\n' +
+      '          <p className="mt-4 max-w-md text-sm text-primary-foreground/70">\n' +
+      '            The National Cadet Corps unit at our college trains young women and men into responsible citizens through drill, adventure, and service.\n' +
+      '          </p>\n' +
+      '        </div>\n' +
+      '        <div>\n' +
+      '          <div '... 1799 more characters,
+    frame: '203 |              <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING A...\n' +
+      '204 |             \n' +
+      '205 |          </Link>\n' +
+      '    |          ^\n' +
+      '206 |          <nav className="hidden md:flex items-center gap-1">\n' +
+      '207 |            {NAV.map((n) => (',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:547:64)
+        at Object.invoke (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:620:11)
+        at async ModuleRunner.getModuleInformation (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1199:7)
+        at async request (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1216:83)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:5:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+        at async ModuleRunner.directRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1259:59)
+        at async ModuleRunner.cachedRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1166:73)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:7:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:28:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:38:10)
+    at async file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Expected corresponding JSX closing tag for <span>. (205:8)
+    at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 8 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+  cause: Error [SyntaxError]: Expected corresponding JSX closing tag for <span>. (205:8)
+      at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4739:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'MissingClosingTagElement',
+    loc: Position { line: 205, column: 8, index: 7510 },
+    pos: 7510,
+    syntaxPlugin: 'jsx',
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/__root.tsx',
+    pluginCode: 'import { QueryClient, QueryClientProvider } from "@tanstack/react-query";\n' +
+      'import {\n' +
+      '  Outlet,\n' +
+      '  Link,\n' +
+      '  createRootRouteWithContext,\n' +
+      '  useRouter,\n' +
+      '  useRouterState,\n' +
+      '  HeadContent,\n' +
+      '  Scripts,\n' +
+      '} from "@tanstack/react-router";\n' +
+      'import { useEffect, useState, type ReactNode } from "react";\n' +
+      'import { Moon, Sun, Instagram } from "lucide-react";\n' +
+      '\n' +
+      'import appCss from "../styles.css?url";\n' +
+      'import nccLogo from "../assets/ncc-logo.png";\n' +
+      '\n' +
+      'function NotFoundComponent() {\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-7xl font-bold text-foreground">404</h1>\n' +
+      '        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      "          The page you're looking for doesn't exist or has been moved.\n" +
+      '        </p>\n' +
+      '        <div className="mt-6">\n' +
+      '          <Link\n' +
+      '            to="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {\n' +
+      '  console.error(error);\n' +
+      '  const router = useRouter();\n' +
+      '  useEffect(() => {\n' +
+      '  console.error(error);\n' +
+      '}, [error]);\n' +
+      '\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-xl font-semibold tracking-tight text-foreground">\n' +
+      "          This page didn't load\n" +
+      '        </h1>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      '          Something went wrong on our end. You can try refreshing or head back home.\n' +
+      '        </p>\n' +
+      '        <div className="mt-6 flex flex-wrap justify-center gap-2">\n' +
+      '          <button\n' +
+      '            onClick={() => {\n' +
+      '              router.invalidate();\n' +
+      '              reset();\n' +
+      '            }}\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Try again\n' +
+      '          </button>\n' +
+      '          <a\n' +
+      '            href="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </a>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({\n' +
+      '  head: () => ({\n' +
+      '    meta: [\n' +
+      '      { charSet: "utf-8" },\n' +
+      '      { name: "viewport", content: "width=device-width, initial-scale=1" },\n' +
+      '      { title: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { property: "og:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:type", content: "website" },\n' +
+      '      { name: "twitter:card", content: "summary" },\n' +
+      '      { name: "twitter:site", content: "@Lovable" },\n' +
+      '      { name: "twitter:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "twitter:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '    ],\n' +
+      '    links: [\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: appCss,\n' +
+      '      },\n' +
+      '      { rel: "preconnect", href: "https://fonts.googleapis.com" },\n' +
+      '      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",\n' +
+      '      },\n' +
+      '    ],\n' +
+      '  }),\n' +
+      '  shellComponent: RootShell,\n' +
+      '  component: RootComponent,\n' +
+      '  notFoundComponent: NotFoundComponent,\n' +
+      '  errorComponent: ErrorComponent,\n' +
+      '});\n' +
+      '\n' +
+      'function RootShell({ children }: { children: ReactNode }) {\n' +
+      '  return (\n' +
+      '    <html lang="en">\n' +
+      '      <head>\n' +
+      '        <HeadContent />\n' +
+      '      </head>\n' +
+      '      <body>\n' +
+      '        {children}\n' +
+      '        <Scripts />\n' +
+      '      </body>\n' +
+      '    </html>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function RootComponent() {\n' +
+      '  const { queryClient } = Route.useRouteContext();\n' +
+      '\n' +
+      '  return (\n' +
+      '    <QueryClientProvider client={queryClient}>\n' +
+      '      <SiteShell />\n' +
+      '    </QueryClientProvider>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteShell() {\n' +
+      '  return (\n' +
+      '    <div className="min-h-screen flex flex-col">\n' +
+      '      <SiteHeader />\n' +
+      '      <main className="flex-1">\n' +
+      '        <Outlet />\n' +
+      '      </main>\n' +
+      '      <SiteFooter />\n' +
+      '      <PageTransitionOverlay />\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function PageTransitionOverlay() {\n' +
+      '  const pathname = useRouterState({ select: (s) => s.location.pathname });\n' +
+      '  const [active, setActive] = useState(false);\n' +
+      '  const [firstRender, setFirstRender] = useState(true);\n' +
+      '  useEffect(() => {\n' +
+      '    if (firstRender) {\n' +
+      '      setFirstRender(false);\n' +
+      '      return;\n' +
+      '    }\n' +
+      '    setActive(true);\n' +
+      '    const t = setTimeout(() => setActive(false), 350);\n' +
+      '    return () => clearTimeout(t);\n' +
+      '    // eslint-disable-next-line react-hooks/exhaustive-deps\n' +
+      '  }, [pathname]);\n' +
+      '  return (\n' +
+      '    <div\n' +
+      '      aria-hidden\n' +
+      '      className={\n' +
+      '        "pointer-events-none fixed inset-0 z-[100] bg-black transition-opacity duration-300 ease-in-out " +\n' +
+      '        (active ? "opacity-100" : "opacity-0")\n' +
+      '      }\n' +
+      '    />\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'const NAV = [\n' +
+      '  { to: "/", label: "Home" },\n' +
+      '  { to: "/activities", label: "Activities" },\n' +
+      '  { to: "/notices", label: "Notices" },\n' +
+      '  { to: "/about", label: "About" },\n' +
+      '  { to: "/contact", label: "Contact" },\n' +
+      '] as const;\n' +
+      '\n' +
+      'function SiteHeader() {\n' +
+      '  const [isDark, setIsDark] = useState(false);\n' +
+      '  useEffect(() => {\n' +
+      '    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;\n' +
+      '    const prefersDark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;\n' +
+      '    setIsDark(prefersDark);\n' +
+      '    document.documentElement.classList.toggle("dark", prefersDark);\n' +
+      '  }, []);\n' +
+      '  const toggleTheme = () => {\n' +
+      '    const next = !isDark;\n' +
+      '    setIsDark(next);\n' +
+      '    document.documentElement.classList.toggle("dark", next);\n' +
+      '    localStorage.setItem("theme", next ? "dark" : "light");\n' +
+      '  };\n' +
+      '  return (\n' +
+      '    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">\n' +
+      '      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">\n' +
+      '        <Link to="/" className="flex items-center gap-3 group">\n' +
+      '          <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />\n' +
+      '          <span className="flex flex-col leading-tight">\n' +
+      '            <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>\n' +
+      '           \n' +
+      '        </Link>\n' +
+      '        <nav className="hidden md:flex items-center gap-1">\n' +
+      '          {NAV.map((n) => (\n' +
+      '            <Link\n' +
+      '              key={n.to}\n' +
+      '              to={n.to}\n' +
+      '              className="px-3 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors"\n' +
+      '              activeProps={{ className: "px-3 py-2 text-sm text-foreground font-medium" }}\n' +
+      '              activeOptions={{ exact: n.to === "/" }}\n' +
+      '            >\n' +
+      '              {n.label}\n' +
+      '            </Link>\n' +
+      '          ))}\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-foreground/80 hover:text-foreground hover:bg-accent/10 transition"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="ml-3 inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"\n' +
+      '          >\n' +
+      '            Cadet Login\n' +
+      '            <span aria-hidden>→</span>\n' +
+      '          </Link>\n' +
+      '        </nav>\n' +
+      '        <div className="md:hidden flex items-center gap-2">\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-border/60 text-foreground/80"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="rounded-sm bg-primary px-3 py-2 text-xs font-medium text-primary-foreground"\n' +
+      '          >\n' +
+      '            Login\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </header>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteFooter() {\n' +
+      '  return (\n' +
+      '    <footer className="border-t border-border/60 bg-[color:var(--olive-deep)] text-primary-foreground/90 mt-24">\n' +
+      '      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">\n' +
+      '        <div className="md:col-span-2">\n' +
+      '          <div className="font-display text-3xl">Unity & Discipline</div>\n' +
+      '          <p className="mt-4 max-w-md text-sm text-primary-foreground/70">\n' +
+      '            The National Cadet Corps unit at our college trains young women and men into responsible citizens through drill, adventure, and service.\n' +
+      '          </p>\n' +
+      '        </div>\n' +
+      '        <div>\n' +
+      '          <div '... 1799 more characters,
+    frame: '203 |              <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING A...\n' +
+      '204 |             \n' +
+      '205 |          </Link>\n' +
+      '    |          ^\n' +
+      '206 |          <nav className="hidden md:flex items-center gap-1">\n' +
+      '207 |            {NAV.map((n) => (',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:547:64)
+        at Object.invoke (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:620:11)
+        at async ModuleRunner.getModuleInformation (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1199:7)
+        at async request (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1216:83)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:5:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+        at async ModuleRunner.directRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1259:59)
+        at async ModuleRunner.cachedRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1166:73)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:7:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:28:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:38:10)
+    at async file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Expected corresponding JSX closing tag for <span>. (205:8)
+    at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 8 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+  cause: Error [SyntaxError]: Expected corresponding JSX closing tag for <span>. (205:8)
+      at constructor (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4739:16)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\ABC\Downloads\ncc site\NCC site\node_modules\@babel\parser\lib\index.js:11083:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'MissingClosingTagElement',
+    loc: Position { line: 205, column: 8, index: 7510 },
+    pos: 7510,
+    syntaxPlugin: 'jsx',
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'C:/Users/ABC/Downloads/ncc site/NCC site/src/routes/__root.tsx',
+    pluginCode: 'import { QueryClient, QueryClientProvider } from "@tanstack/react-query";\n' +
+      'import {\n' +
+      '  Outlet,\n' +
+      '  Link,\n' +
+      '  createRootRouteWithContext,\n' +
+      '  useRouter,\n' +
+      '  useRouterState,\n' +
+      '  HeadContent,\n' +
+      '  Scripts,\n' +
+      '} from "@tanstack/react-router";\n' +
+      'import { useEffect, useState, type ReactNode } from "react";\n' +
+      'import { Moon, Sun, Instagram } from "lucide-react";\n' +
+      '\n' +
+      'import appCss from "../styles.css?url";\n' +
+      'import nccLogo from "../assets/ncc-logo.png";\n' +
+      '\n' +
+      'function NotFoundComponent() {\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-7xl font-bold text-foreground">404</h1>\n' +
+      '        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      "          The page you're looking for doesn't exist or has been moved.\n" +
+      '        </p>\n' +
+      '        <div className="mt-6">\n' +
+      '          <Link\n' +
+      '            to="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {\n' +
+      '  console.error(error);\n' +
+      '  const router = useRouter();\n' +
+      '  useEffect(() => {\n' +
+      '  console.error(error);\n' +
+      '}, [error]);\n' +
+      '\n' +
+      '  return (\n' +
+      '    <div className="flex min-h-screen items-center justify-center bg-background px-4">\n' +
+      '      <div className="max-w-md text-center">\n' +
+      '        <h1 className="text-xl font-semibold tracking-tight text-foreground">\n' +
+      "          This page didn't load\n" +
+      '        </h1>\n' +
+      '        <p className="mt-2 text-sm text-muted-foreground">\n' +
+      '          Something went wrong on our end. You can try refreshing or head back home.\n' +
+      '        </p>\n' +
+      '        <div className="mt-6 flex flex-wrap justify-center gap-2">\n' +
+      '          <button\n' +
+      '            onClick={() => {\n' +
+      '              router.invalidate();\n' +
+      '              reset();\n' +
+      '            }}\n' +
+      '            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"\n' +
+      '          >\n' +
+      '            Try again\n' +
+      '          </button>\n' +
+      '          <a\n' +
+      '            href="/"\n' +
+      '            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"\n' +
+      '          >\n' +
+      '            Go home\n' +
+      '          </a>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({\n' +
+      '  head: () => ({\n' +
+      '    meta: [\n' +
+      '      { charSet: "utf-8" },\n' +
+      '      { name: "viewport", content: "width=device-width, initial-scale=1" },\n' +
+      '      { title: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { property: "og:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:type", content: "website" },\n' +
+      '      { name: "twitter:card", content: "summary" },\n' +
+      '      { name: "twitter:site", content: "@Lovable" },\n' +
+      '      { name: "twitter:title", content: "NCC College Unit — Discipline, Service, Honour" },\n' +
+      '      { name: "twitter:description", content: "Official portal of the NCC unit at our college. Activities, notices, gallery and cadet login." },\n' +
+      '      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eea89320-902c-4c6e-9339-3e6b3a668ba7/id-preview-6c92e76d--839b528a-e6ea-4a0d-913d-a78c8337234c.lovable.app-1781430239395.png" },\n' +
+      '    ],\n' +
+      '    links: [\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: appCss,\n' +
+      '      },\n' +
+      '      { rel: "preconnect", href: "https://fonts.googleapis.com" },\n' +
+      '      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },\n' +
+      '      {\n' +
+      '        rel: "stylesheet",\n' +
+      '        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",\n' +
+      '      },\n' +
+      '    ],\n' +
+      '  }),\n' +
+      '  shellComponent: RootShell,\n' +
+      '  component: RootComponent,\n' +
+      '  notFoundComponent: NotFoundComponent,\n' +
+      '  errorComponent: ErrorComponent,\n' +
+      '});\n' +
+      '\n' +
+      'function RootShell({ children }: { children: ReactNode }) {\n' +
+      '  return (\n' +
+      '    <html lang="en">\n' +
+      '      <head>\n' +
+      '        <HeadContent />\n' +
+      '      </head>\n' +
+      '      <body>\n' +
+      '        {children}\n' +
+      '        <Scripts />\n' +
+      '      </body>\n' +
+      '    </html>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function RootComponent() {\n' +
+      '  const { queryClient } = Route.useRouteContext();\n' +
+      '\n' +
+      '  return (\n' +
+      '    <QueryClientProvider client={queryClient}>\n' +
+      '      <SiteShell />\n' +
+      '    </QueryClientProvider>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteShell() {\n' +
+      '  return (\n' +
+      '    <div className="min-h-screen flex flex-col">\n' +
+      '      <SiteHeader />\n' +
+      '      <main className="flex-1">\n' +
+      '        <Outlet />\n' +
+      '      </main>\n' +
+      '      <SiteFooter />\n' +
+      '      <PageTransitionOverlay />\n' +
+      '    </div>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function PageTransitionOverlay() {\n' +
+      '  const pathname = useRouterState({ select: (s) => s.location.pathname });\n' +
+      '  const [active, setActive] = useState(false);\n' +
+      '  const [firstRender, setFirstRender] = useState(true);\n' +
+      '  useEffect(() => {\n' +
+      '    if (firstRender) {\n' +
+      '      setFirstRender(false);\n' +
+      '      return;\n' +
+      '    }\n' +
+      '    setActive(true);\n' +
+      '    const t = setTimeout(() => setActive(false), 350);\n' +
+      '    return () => clearTimeout(t);\n' +
+      '    // eslint-disable-next-line react-hooks/exhaustive-deps\n' +
+      '  }, [pathname]);\n' +
+      '  return (\n' +
+      '    <div\n' +
+      '      aria-hidden\n' +
+      '      className={\n' +
+      '        "pointer-events-none fixed inset-0 z-[100] bg-black transition-opacity duration-300 ease-in-out " +\n' +
+      '        (active ? "opacity-100" : "opacity-0")\n' +
+      '      }\n' +
+      '    />\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'const NAV = [\n' +
+      '  { to: "/", label: "Home" },\n' +
+      '  { to: "/activities", label: "Activities" },\n' +
+      '  { to: "/notices", label: "Notices" },\n' +
+      '  { to: "/about", label: "About" },\n' +
+      '  { to: "/contact", label: "Contact" },\n' +
+      '] as const;\n' +
+      '\n' +
+      'function SiteHeader() {\n' +
+      '  const [isDark, setIsDark] = useState(false);\n' +
+      '  useEffect(() => {\n' +
+      '    const stored = typeof window !== "undefined" ? localStorage.getItem("theme") : null;\n' +
+      '    const prefersDark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;\n' +
+      '    setIsDark(prefersDark);\n' +
+      '    document.documentElement.classList.toggle("dark", prefersDark);\n' +
+      '  }, []);\n' +
+      '  const toggleTheme = () => {\n' +
+      '    const next = !isDark;\n' +
+      '    setIsDark(next);\n' +
+      '    document.documentElement.classList.toggle("dark", next);\n' +
+      '    localStorage.setItem("theme", next ? "dark" : "light");\n' +
+      '  };\n' +
+      '  return (\n' +
+      '    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">\n' +
+      '      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">\n' +
+      '        <Link to="/" className="flex items-center gap-3 group">\n' +
+      '          <img src={nccLogo} alt="NCC Logo" width={36} height={36} className="h-9 w-9 rounded-sm object-cover" />\n' +
+      '          <span className="flex flex-col leading-tight">\n' +
+      '            <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING ALAPPUZHA </span>\n' +
+      '           \n' +
+      '        </Link>\n' +
+      '        <nav className="hidden md:flex items-center gap-1">\n' +
+      '          {NAV.map((n) => (\n' +
+      '            <Link\n' +
+      '              key={n.to}\n' +
+      '              to={n.to}\n' +
+      '              className="px-3 py-2 text-sm text-foreground/80 hover:text-foreground transition-colors"\n' +
+      '              activeProps={{ className: "px-3 py-2 text-sm text-foreground font-medium" }}\n' +
+      '              activeOptions={{ exact: n.to === "/" }}\n' +
+      '            >\n' +
+      '              {n.label}\n' +
+      '            </Link>\n' +
+      '          ))}\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-foreground/80 hover:text-foreground hover:bg-accent/10 transition"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="ml-3 inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition"\n' +
+      '          >\n' +
+      '            Cadet Login\n' +
+      '            <span aria-hidden>→</span>\n' +
+      '          </Link>\n' +
+      '        </nav>\n' +
+      '        <div className="md:hidden flex items-center gap-2">\n' +
+      '          <button\n' +
+      '            type="button"\n' +
+      '            onClick={toggleTheme}\n' +
+      '            aria-label="Toggle theme"\n' +
+      '            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-border/60 text-foreground/80"\n' +
+      '          >\n' +
+      '            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}\n' +
+      '          </button>\n' +
+      '          <Link\n' +
+      '            to="/login"\n' +
+      '            className="rounded-sm bg-primary px-3 py-2 text-xs font-medium text-primary-foreground"\n' +
+      '          >\n' +
+      '            Login\n' +
+      '          </Link>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </header>\n' +
+      '  );\n' +
+      '}\n' +
+      '\n' +
+      'function SiteFooter() {\n' +
+      '  return (\n' +
+      '    <footer className="border-t border-border/60 bg-[color:var(--olive-deep)] text-primary-foreground/90 mt-24">\n' +
+      '      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">\n' +
+      '        <div className="md:col-span-2">\n' +
+      '          <div className="font-display text-3xl">Unity & Discipline</div>\n' +
+      '          <p className="mt-4 max-w-md text-sm text-primary-foreground/70">\n' +
+      '            The National Cadet Corps unit at our college trains young women and men into responsible citizens through drill, adventure, and service.\n' +
+      '          </p>\n' +
+      '        </div>\n' +
+      '        <div>\n' +
+      '          <div '... 1799 more characters,
+    frame: '203 |              <span className="font-display text-base text-foreground whitespace-pre-line">NCC COLLEGE OF ENGINEERING A...\n' +
+      '204 |             \n' +
+      '205 |          </Link>\n' +
+      '    |          ^\n' +
+      '206 |          <nav className="hidden md:flex items-center gap-1">\n' +
+      '207 |            {NAV.map((n) => (',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:547:64)
+        at Object.invoke (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:620:11)
+        at async ModuleRunner.getModuleInformation (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1199:7)
+        at async request (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1216:83)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:5:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+        at async ModuleRunner.directRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1259:59)
+        at async ModuleRunner.cachedRequest (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1166:73)
+        at async eval (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:7:31)
+        at async ESModulesEvaluator.runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:28:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (eval at runInlinedModule (file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/vite/dist/node/module-runner.js:1006:9), <anonymous>:38:10)
+    at async file:///C:/Users/ABC/Downloads/ncc%20site/NCC%20site/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+Terminate batch job (Y/N)? 
+^C
